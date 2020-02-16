@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: page
 permalink: /:path/:basename
 ---
 
@@ -21,8 +21,8 @@ gh pr view [{<number> | <url> | <branch>}] [flags]
 ### Options
 
 ```
-  -p, --preview   Display preview of pull request content
-  -s, --sha       Commit sha hash of pull request
+  -p, --preview      Display preview of pull request content
+  -s, --sha string   Commit sha hash of pull request
 ```
 
 ### Options inherited from parent commands
